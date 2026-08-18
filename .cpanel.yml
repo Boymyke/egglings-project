@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ferrmxud/egglings.xyz/
-    - /bin/cp -R . $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp form.html $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
